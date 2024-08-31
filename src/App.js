@@ -1,10 +1,12 @@
 import React from 'react';
+import { ThemeProvider } from './ThemeContext';
+import LandingPage from './components/LandingPage.jsx';
 
 function App() {
   return (
-    <div>
-      <h1>Welcome to Blue Road eHP</h1>
-    </div>
+    <ThemeProvider>
+      <LandingPage />
+    </ThemeProvider>
   );
 }
 
