@@ -46,10 +46,20 @@ const LandingPage = () => {
 
       <Sidebar isOpen={sidebarOpen} toggleSidebar={toggleSidebar} />
 
-      {/* Main content */}
-      <main className="container mx-auto px-4 py-8 flex-grow">
-        <p className="mb-8 text-xl">Your one-stop solution for finding Azur Lane eHP data.</p>
-        {/* Add more content here as needed */}
+      {/* Main content with faded background */}
+      <main className="container mx-auto px-4 py-8 flex-grow relative">
+        <div 
+          className="absolute inset-0 bg-center opacity-30 z-0"
+          style={{
+            backgroundImage: "url('/images/Azur_Lane_English_Release_Logo.png')",
+            backgroundSize: "50%",
+            backgroundRepeat: "no-repeat"
+        }}
+        ></div>
+        <div className="relative z-10">
+          <p className="mb-8 text-xl">Your one-stop solution for finding Azur Lane eHP data.</p>
+          {/* Add more content here as needed */}
+        </div>
       </main>
 
       {/* Footer with Contact Us section */}
