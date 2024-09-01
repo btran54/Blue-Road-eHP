@@ -76,10 +76,6 @@ const LandingPage = () => {
           Blue Road eHP Ltd. Co. Inc. LLC. LLP. PLC. Corp. B.V. GmbH. S.A. AG N.V. Pty Ltd. S.r.l. K.K. S.à r.l. Ltda. Oy Sp. z o.o. A/S SpA SA/NV A.G. EEIG K.S. SNC ScS LLLP GbR d.o.o. JSC PBC CIC e.U. OÜ Kt. Rt. K.K.T. <br/>Providing reliable Azur Lane data since 2024
           </p> 
         </div> 
-        <div>
-          <div className="grid grid-flow-col gap-4">
-          </div>
-        </div>
       </footer>
     </div>
   );
