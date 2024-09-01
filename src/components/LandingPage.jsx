@@ -1,14 +1,15 @@
 import React, { useState, useContext } from 'react';
 import { ThemeContext } from '../ThemeContext';
+import { Link } from 'react-router-dom';
 
 const Sidebar = ({ isOpen, toggleSidebar }) => {
   return (
     <div className={`fixed top-0 left-0 h-full w-64 bg-neutral text-neutral-content transition-all duration-300 ease-in-out z-50 ${isOpen ? 'translate-x-0' : '-translate-x-full'}`}>
       <button className="absolute top-4 right-4 text-2xl" onClick={toggleSidebar}>×</button>
       <ul className="menu p-4 pt-16">
-        <li><a href="#home" className="hover:bg-neutral-focus text-lg">Home</a></li>
-        <li><a href="#about" className="hover:bg-neutral-focus text-lg">About</a></li>
-        <li><a href="#contact" className="hover:bg-neutral-focus text-lg">Contact</a></li>
+        <li><Link to="/ranking" className="hover:bg-neutral-focus text-lg">Ranking</Link></li>
+        <li><Link to="/updates" className="hover:bg-neutral-focus text-lg" onClick={toggleSidebar}>Updates</Link></li>
+        <li><Link to="/contact" className="hover:bg-neutral-focus text-lg" onClick={toggleSidebar}>Contact</Link></li>
       </ul>
     </div>
   );
