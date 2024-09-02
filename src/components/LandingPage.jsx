@@ -33,7 +33,13 @@ const LandingPage = () => {
         >
           ☰
         </button>
-        <img src="/images/Azur_Lane_English_Release_Logo.png" alt="Blue Road eHP Logo" className="w-20 h-15" />
+        <Link to="/" className="flex items-center">
+          <img 
+            src="/images/Azur_Lane_English_Release_Logo.png" 
+            alt="Blue Road eHP Logo" 
+            className="w-20 h-15 cursor-pointer"
+          />
+        </Link>      
       </div>
 
       {/* Banner */}
