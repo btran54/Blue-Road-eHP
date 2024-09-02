@@ -33,11 +33,15 @@ const LandingPage = () => {
         >
           ☰
         </button>
-        <Link to="/" className="flex items-center">
+        <Link 
+          to="/" 
+          className="flex items-center transition-transform duration-300 ease-in-out transform hover:scale-105"
+          title="Return to Home"
+        >
           <img 
             src="/images/Azur_Lane_English_Release_Logo.png" 
             alt="Blue Road eHP Logo" 
-            className="w-20 h-15 cursor-pointer"
+            className="w-20 h-15"
           />
         </Link>      
       </div>
