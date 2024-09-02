@@ -7,7 +7,7 @@ const Sidebar = ({ isOpen, toggleSidebar }) => {
     <div className={`fixed top-0 left-0 h-full w-64 bg-neutral text-neutral-content transition-all duration-300 ease-in-out z-50 ${isOpen ? 'translate-x-0' : '-translate-x-full'}`}>
       <button className="absolute top-4 right-4 text-2xl" onClick={toggleSidebar}>×</button>
       <ul className="menu p-4 pt-16">
-        <li><Link to="/ranking" className="hover:bg-neutral-focus text-lg">Ranking</Link></li>
+        <li><Link to="/ranking" className="hover:bg-neutral-focus text-lg" onClick={toggleSidebar}>Ranking</Link></li>
         <li><Link to="/updates" className="hover:bg-neutral-focus text-lg" onClick={toggleSidebar}>Updates</Link></li>
         <li><Link to="/contact" className="hover:bg-neutral-focus text-lg" onClick={toggleSidebar}>Contact</Link></li>
       </ul>
@@ -76,6 +76,10 @@ const LandingPage = () => {
           Blue Road eHP Ltd. Co. Inc. LLC. LLP. PLC. Corp. B.V. GmbH. S.A. AG N.V. Pty Ltd. S.r.l. K.K. S.à r.l. Ltda. Oy Sp. z o.o. A/S SpA SA/NV A.G. EEIG K.S. SNC ScS LLLP GbR d.o.o. JSC PBC CIC e.U. OÜ Kt. Rt. K.K.T. <br/>Providing reliable Azur Lane data since 2024
           </p> 
         </div> 
+        <div>
+          <div className="grid grid-flow-col gap-4">
+          </div>
+        </div>
       </footer>
     </div>
   );
