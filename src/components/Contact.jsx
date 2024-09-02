@@ -80,7 +80,8 @@ const Contact = () => {
                 <strong>Mebot</strong>
                 <ul className="pl-4">
                   <li>Email: <a href="mailto:mebot2001@gmail.com" className="underline text-blue-500">mebot2001@gmail.com</a></li>
-                  <li>Discord: <span className="text-gray-700">@mebot</span></li>
+                  Discord: <a href="https://discord.com/users/mebot" target="_blank" rel="noopener noreferrer" className="underline text-blue-500 hover:text-blue-700">@mebot</a>
+                  <span className="text-sm text-gray-500 ml-2">(If link doesn't work, add friend: mebot)</span>
                   <li>GitHub: <a href="https://github.com/Mebot2001" target="_blank" rel="noopener noreferrer" className="underline text-blue-500 hover:text-blue-700">github.com/Mebot2001</a></li>
                 </ul>
               </li>
@@ -88,7 +89,8 @@ const Contact = () => {
                 <strong>Bran</strong>
                 <ul className="pl-4">
                   <li>Email: <a href="mailto:briantran888@@gmail.com" className="underline text-blue-500">briantran888@gmail.com</a></li>
-                  <li>Discord: <span className="text-gray-700">@rolledegg</span></li>
+                  Discord: <a href="https://discord.com/users/rolledegg" target="_blank" rel="noopener noreferrer" className="underline text-blue-500 hover:text-blue-700">@rolledegg</a>
+                  <span className="text-sm text-gray-500 ml-2">(If link doesn't work, add friend: rolledegg)</span>
                   <li>GitHub: <a href="https://github.com/btran54" target="_blank" rel="noopener noreferrer" className="underline text-blue-500 hover:text-blue-700">github.com/btran54</a></li>
                 </ul>
               </li>
