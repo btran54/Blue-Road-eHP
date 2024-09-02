@@ -83,6 +83,13 @@ const Updates = () => {
                   <li>Added Patch Notes</li>
                 </ul>
               </li>
+              <li>
+                <strong>September 02, 2024:</strong>
+                  <ul className="list-disc pl-8 space-y-2">
+                    <li>Azur Lane logo is now a button to redirect to homepage</li>
+                    <li>Pages no longer crash when refreshed</li>
+                  </ul>
+              </li>
             </ul>
           </section>
         </div>
